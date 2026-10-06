@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+data/*.db
+out/
+
+# Credenciales: la plantilla es firmware/esp32_eink/secrets.example.h
+secrets.h
+.env
+
+# Binarios de compilación del firmware
+*.bin
+*.elf
+build/
